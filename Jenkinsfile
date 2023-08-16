@@ -22,7 +22,7 @@ pipeline {
             }
             steps {
                 // Deploy the code (if build and tests pass)
-                echo './deploy.sh'
+                echo './deploy.echo'
             }
         }
     }
